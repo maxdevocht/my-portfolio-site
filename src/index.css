@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 :root {
   --color-black: #282828;
   --color-white: #fafafa;
@@ -26,6 +28,8 @@ img {
 
 body {
   background-color: var(--color-white);
+  font-family: 'Outfit', sans-serif;
+  /* min-height: 100vh; */
 }
 
 /* navbar styling */
@@ -50,4 +54,34 @@ body {
   font-size: 1.5rem;
   color: var(--color-black);
   cursor: pointer;
+}
+
+/* header styling */
+.header {
+  margin: 0 .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.header--info,
+.header--img {
+  margin-bottom: .5rem;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid var(--color-black);
+  border-radius: 30px;
+  color: var(--color-black);
+}
+
+.name {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.bio {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.5rem;
 }
