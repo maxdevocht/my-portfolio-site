@@ -27,3 +27,27 @@ img {
 body {
   background-color: var(--color-white);
 }
+
+/* navbar styling */
+.navbar {
+  margin: .5rem;
+  padding: .25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-black);
+  border-radius: 30px;
+}
+
+.nav--list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.list--item {
+  font-size: 1.5rem;
+  color: var(--color-black);
+  cursor: pointer;
+}
