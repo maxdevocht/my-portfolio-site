@@ -2,7 +2,8 @@
 
 :root {
   --color-black: #282828;
-  --color-white: #fafafa;
+  --color-white: #ffffff;
+  --color-offwhite: #fafafa;
 }
 
 /* reusable classes */
@@ -71,14 +72,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
 }
 
 .header--info,
 .header--img {
   margin-bottom: .5rem;
   width: 100%;
-  padding: 2.5rem 1.5rem;
+  padding: 2rem 1.5rem;
   border: 1px solid var(--color-black);
   border-radius: 30px;
   color: var(--color-black);
@@ -95,6 +96,13 @@ body {
   font-size: 1.5rem;
 }
 
+.header--img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .memoji {
   width: 15rem;
+  margin-top: -2rem;
 }
