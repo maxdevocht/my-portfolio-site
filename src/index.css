@@ -39,6 +39,12 @@ img {
   object-fit: cover;
 }
 
+button {
+  border: none;
+  transform: none;
+  cursor: pointer;
+}
+
 body {
   background-color: var(--color-white);
   font-family: 'Outfit', sans-serif;
