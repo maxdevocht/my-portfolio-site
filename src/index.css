@@ -4,6 +4,9 @@
   --color-black: #282828;
   --color-white: #ffffff;
   --color-offwhite: #fafafa;
+
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 1.5rem;
 }
 
 /* reusable classes */
@@ -87,13 +90,13 @@ body {
 
 .name {
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: var(--h1-font-size);
 }
 
 .bio {
   font-weight: 300;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: var(--h2-font-size);
 }
 
 .header--img {
