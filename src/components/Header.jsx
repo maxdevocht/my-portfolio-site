@@ -8,7 +8,9 @@ export default function Header() {
                 <h2 className="bio">Front-end Dev</h2>
             </div>
 
-            <div className="header--img shadow"></div>
+            <div className="header--img shadow">
+                <img src="./src/assets/images/Memoji_smile.svg" alt="Memoji" className="memoji" />
+            </div>
         </header>
     )
 }
