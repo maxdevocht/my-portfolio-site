@@ -12,21 +12,21 @@ export default function Links() {
                         <h2 className="link--title">My Shopping List</h2>
                     </button>
                 </div>
-                <button className="link--btn shadow">
+                <button className="second--btn shadow">
                         <h2 className="link--title">Link Catcher Chrome Extension</h2>
                 </button>
             </div>
             <div className="second--section">
                 <div className="second--btns">
                     <button className="link--btn shadow">
-                        <h2 className="link--title">Responsive Cactus Site</h2>
+                        <h2 className="link--title">My Travel Journal</h2>
                     </button>
                     <button className="link--btn shadow">
                         <h2 className="link--title">My ToDo App</h2>
                     </button>
                 </div>
-                <button className="link--btn shadow">
-                        <h2 className="link--title">My Travel Journal</h2>
+                <button className="second--btn shadow">
+                        <h2 className="link--title">Responsive Cactus Shop</h2>
                 </button>
             </div>
         </section>
