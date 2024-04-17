@@ -1,11 +1,10 @@
 import React from "react";
 
-export default function Links() {
+export default function Links(props) {
     return (
-        <section className="section--links">
-            <button className="link--btn">
-                <h2 className="link--title">BQ Music</h2>
-            </button>
-        </section>
+        <button className="link--btn">
+            <h2 className="link--title">{props.item.title}</h2>
+        </button>
+        
     )
 }
