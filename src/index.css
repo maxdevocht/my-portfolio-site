@@ -5,6 +5,14 @@
   --color-white: #fafafa;
 }
 
+/* reusable classes */
+.shadow {
+  -webkit-box-shadow: 2px 2px 10px 1px #d2d2d2;
+  -moz-box-shadow: 2px 2px 10px 1px #d2d2d2;
+  box-shadow: 2px 2px 10px 1px #d2d2d2;
+}
+
+/* main styles */
 * {
   margin: 0;
   padding: 0;
