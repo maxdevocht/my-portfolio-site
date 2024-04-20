@@ -26,7 +26,6 @@
 
 a {
   text-decoration: none;
-  color: var(--color-black);
 }
 
 li {
@@ -72,6 +71,10 @@ body {
   font-size: 1.75rem;
   color: var(--color-black);
   cursor: pointer;
+}
+
+.list--item a {
+  color: var(--color-black);
 }
 
 /* header styling */
@@ -169,6 +172,7 @@ body {
 
 .link--title {
   font-size: var(--h2-font-size);
+  color: var(--color-black);
   font-weight: 200;
   font-style: italic;
   font-family: 'Outfit', sans-serif;

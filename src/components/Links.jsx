@@ -6,27 +6,27 @@ export default function Links() {
             <div className="first--section">
                 <div className="first--btns">
                     <button className="link--btn shadow">
-                        <h2 className="link--title">BQ Music</h2>
+                        <a href="" className="link--title">BQ Music</a>
                     </button>
                     <button className="link--btn shadow">
-                        <h2 className="link--title">My Shopping List</h2>
+                        <a href="" className="link--title">My Shopping List</a>
                     </button>
                 </div>
                 <button className="second--btn shadow">
-                        <h2 className="link--title">Link Catcher Chrome Extension</h2>
+                        <a href="" className="link--title">Link Catcher Chrome Extension</a>
                 </button>
             </div>
             <div className="second--section">
                 <div className="second--btns">
                     <button className="link--btn shadow">
-                        <h2 className="link--title">My Travel Journal</h2>
+                        <a href="" className="link--title">My Travel Journal</a>
                     </button>
                     <button className="link--btn shadow">
-                        <h2 className="link--title">My ToDo App</h2>
+                        <a href="https://my-todo-checklist.netlify.app" className="link--title">My ToDo App</a>
                     </button>
                 </div>
                 <button className="second--btn shadow">
-                        <h2 className="link--title">Responsive Cactus Shop</h2>
+                        <a href="" className="link--title">Responsive Cactus Shop</a>
                 </button>
             </div>
         </section>
