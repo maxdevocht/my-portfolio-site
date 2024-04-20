@@ -168,6 +168,9 @@ body {
 .second--btn:hover {
   background-color: var(--color-black);
   color: var(--color-white);
+  .link--title {
+    color: var(--color-white);
+  }
 }
 
 .link--title {
@@ -177,6 +180,7 @@ body {
   font-style: italic;
   font-family: 'Outfit', sans-serif;
 }
+
 
 /* copyright styling */
 .copyright {
