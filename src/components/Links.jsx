@@ -9,11 +9,11 @@ export default function Links() {
                         <a href="" className="link--title">BQ Music</a>
                     </button>
                     <button className="link--btn shadow">
-                        <a href="" className="link--title">My Shopping List</a>
+                        <a href="https://mijnlijst.netlify.app" className="link--title">My Shopping List</a>
                     </button>
                 </div>
                 <button className="second--btn shadow">
-                        <a href="" className="link--title">Link Catcher Chrome Extension</a>
+                        <a href="https://ixperium-aanvraagformulier.netlify.app" className="link--title">iX Aanvraagformulier</a>
                 </button>
             </div>
             <div className="second--section">
@@ -26,7 +26,7 @@ export default function Links() {
                     </button>
                 </div>
                 <button className="second--btn shadow">
-                        <a href="" className="link--title">Responsive Cactus Shop</a>
+                        <a href="https://responsive-nft-page.netlify.app" className="link--title">SSSYMBOLSSS</a>
                 </button>
             </div>
         </section>
