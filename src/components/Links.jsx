@@ -19,7 +19,7 @@ export default function Links() {
             <div className="second--section">
                 <div className="second--btns">
                     <button className="link--btn shadow">
-                        <a href="" className="link--title">My Travel Journal</a>
+                        <a href="https://max-travel-journal.netlify.app" className="link--title">My Travel Journal</a>
                     </button>
                     <button className="link--btn shadow">
                         <a href="https://my-todo-checklist.netlify.app" className="link--title">My ToDo App</a>
